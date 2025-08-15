@@ -1,0 +1,15 @@
+2. Upload the NN_sample.ipynb to Jupyter notebook (or google colab) and see if you can
+understand the code. Add the following text cell and the code cell to the notebook and run it
+again.
+1. What happens when the number of hidden nodes increase?
+* More nodes = more parameters (weights), allowing the network to learn more complex patterns
+Can capture intricate relationships in data that simpler networks might miss
+Training becomes slower
+Requires more memory to store additional weights
+May need more training data to properly tune all parameters
+
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase? 
+* When there are too Few Nodes, there is a ow accuracy: The network lacks capacity to learn meaningful patterns like 60-70% accuracy
+when there are moderate Nodes, Network gains enough capacity to model true patterns meaning it is a rapid improvement in accuracy as of 90-95% accuracy
+If many more nodes are used,  Additional nodes provide smaller accuracy improvements, but gain only 1-2% accuracy
